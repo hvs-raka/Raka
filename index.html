@@ -7,7 +7,7 @@
     <br />
     <div id="styling">
       <style contenteditable style="display: block; white-space: pre">
-        * {
+        < "This block is editable" > * {
           transition: 0.5s;
         }
         html {
@@ -43,14 +43,14 @@
           border-bottom-right-radius: 120px 24px;
 
           background-color: #2c2f33;
-          color: #99aab5;
+          color: #e7ecef;
           text-align: left;
           overflow-x: auto;
           overflow-y: auto;
           height: 50%;
+          text-align: justify;
 
-          display: block;
-          position: relative;
+          position: left;
           border: solid 3px #6e7491;
           padding: 40px 60px;
           max-width: 100%;
@@ -59,22 +59,11 @@
           font-size: 90%;
           transform: rotate(-1deg);
           box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
-          transition: all 0.13s ease-in;
+          transition: all 0.15s ease-in;
           font-family: "Courier New", Courier, monospace;
 
           -ms-overflow-style: none; /* Hiding scroll bar IE and Edge */
           scrollbar-width: none; /* Firefox */
-
-          /*
-          margin: 2%, 2%;
-          padding: 0.2%;
-          
-          overflow-x: auto;
-          overflow-y: auto;
-          text-align: justify;
-          border-style: outset;
-          
-        */
         }
         #styling::-webkit-scrollbar {
           display: none; /* Hiding scroll bar from Safari and Chrome */
